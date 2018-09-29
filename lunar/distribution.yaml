@@ -2494,7 +2494,7 @@ repositories:
     release:
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ros-gbp/random_numbers-release.git
+      url: git@github.com:nuclearsandwich/random_numbers-release
       version: 0.3.1-1
     source:
       type: git
