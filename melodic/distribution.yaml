@@ -3605,11 +3605,11 @@ repositories:
     release:
       tags:
         release: release/melodic/{package}/{version}
-      url: https://github.com/ros-gbp/random_numbers-release.git
+      url: https://github.com/nuclearsandwich/random_numbers-release.git
       version: 0.3.2-0
     source:
       type: git
-      url: https://github.com/ros-planning/random_numbers.git
+      url: https://github.com/nuclearsandwich/random_numbers.git
       version: master
     status: maintained
   raspimouse_sim:
