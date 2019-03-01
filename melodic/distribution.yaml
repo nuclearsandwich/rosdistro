@@ -3994,8 +3994,8 @@ repositories:
     release:
       tags:
         release: release/melodic/{package}/{version}
-      url: https://github.com/ros-gbp/random_numbers-release.git
-      version: 0.3.2-0
+      url: git@github.com:nuclearsandwich/random_numbers-release
+      version: 0.3.2-4
     source:
       type: git
       url: https://github.com/ros-planning/random_numbers.git
