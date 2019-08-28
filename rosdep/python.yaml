@@ -5010,6 +5010,9 @@ python3-gnupg:
   gentoo: [dev-python/python-gnupg]
   ubuntu: [python3-gnupg]
 python3-lark-parser:
+  debian: 
+    buster: [python3-lark-parser]
+    stretch: [python3-lark-parser]
   fedora:
     '*': [python3-lark-parser]
     '28': null
