@@ -447,6 +447,10 @@ repositories:
       version: foxy-devel
     status: maintained
   cyclonedds:
+    doc:
+      type: git
+      url: git
+      version: git
     release:
       tags:
         release: release/rolling/{package}/{version}
