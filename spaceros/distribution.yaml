@@ -1,0 +1,312 @@
+%YAML 1.1
+# ROS distribution file
+# see REP 143: http://ros.org/reps/rep-0143.html
+release_platforms:
+  ubuntu:
+  - focal
+repositories:
+  ament_cmake:
+    doc:
+      type: git
+      url: https://github.com/ament/ament_cmake.git
+      version: master
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ament/ament_cmake.git
+      version: master
+    status: developed
+  ament_cmake_ros:
+    doc:
+      type: git
+      url: https://github.com/ros2/ament_cmake_ros.git
+      version: master
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/ament_cmake_ros.git
+      version: master
+    status: maintained
+  ament_index:
+    doc:
+      type: git
+      url: https://github.com/ament/ament_index.git
+      version: master
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ament/ament_index.git
+      version: master
+    status: maintained
+  ament_lint:
+    doc:
+      type: git
+      url: https://github.com/ament/ament_lint.git
+      version: master
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ament/ament_lint.git
+      version: master
+    status: developed
+  common_interfaces:
+    doc:
+      type: git
+      url: https://github.com/ros2/common_interfaces.git
+      version: master
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/common_interfaces.git
+      version: master
+    status: maintained
+  demos:
+    doc:
+      type: git
+      url: https://github.com/ros2/demos.git
+      version: master
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/demos.git
+      version: master
+    status: developed
+  examples:
+    doc:
+      type: git
+      url: https://github.com/ros2/examples.git
+      version: master
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/examples.git
+      version: master
+    status: maintained
+  geometry2:
+    doc:
+      type: git
+      url: https://github.com/ros2/geometry2.git
+      version: ros2
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/geometry2.git
+      version: ros2
+    status: maintained
+  googletest:
+    source:
+      type: git
+      url: https://github.com/ament/googletest.git
+      version: ros2
+    status: maintained
+  launch:
+    doc:
+      type: git
+      url: https://github.com/ros2/launch.git
+      version: master
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/launch.git
+      version: master
+    status: developed
+  launch_ros:
+    doc:
+      type: git
+      url: https://github.com/ros2/launch_ros.git
+      version: master
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/launch_ros.git
+      version: master
+    status: maintained
+  orocos_kinematics_dynamics:
+    doc:
+      type: git
+      url: https://github.com/ros2/orocos_kinematics_dynamics.git
+      version: ros2
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/orocos_kinematics_dynamics.git
+      version: ros2
+    status: maintained
+  rcl:
+    doc:
+      type: git
+      url: https://github.com/ros2/rcl.git
+      version: master
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rcl.git
+      version: master
+    status: maintained
+  rcl_interfaces:
+    doc:
+      type: git
+      url: https://github.com/ros2/rcl_interfaces.git
+      version: master
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rcl_interfaces.git
+      version: master
+    status: maintained
+  rcl_logging:
+    doc:
+      type: git
+      url: https://github.com/ros2/rcl_logging.git
+      version: master
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rcl_logging.git
+      version: master
+    status: maintained
+  rclcpp:
+    doc:
+      type: git
+      url: https://github.com/ros2/rclcpp.git
+      version: master
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rclcpp.git
+      version: master
+    status: maintained
+  realtime_support:
+    doc:
+      type: git
+      url: https://github.com/ros2/realtime_support.git
+      version: master
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/realtime_support.git
+      version: master
+    status: maintained
+  rmw:
+    doc:
+      type: git
+      url: https://github.com/ros2/rmw.git
+      version: master
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rmw.git
+      version: master
+    status: maintained
+  rmw_cyclonedds:
+    doc:
+      type: git
+      url: https://github.com/ros2/rmw_cyclonedds.git
+      version: master
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rmw_cyclonedds.git
+      version: master
+    status: developed
+  ros2_tracing:
+    doc:
+      type: git
+      url: https://gitlab.com/ros-tracing/ros2_tracing.git
+      version: master
+    source:
+      type: git
+      url: https://gitlab.com/ros-tracing/ros2_tracing.git
+      version: master
+    status: developed
+  ros2cli:
+    doc:
+      type: git
+      url: https://github.com/ros2/ros2cli.git
+      version: master
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/ros2cli.git
+      version: master
+    status: maintained
+  ros_testing:
+    doc:
+      type: git
+      url: https://github.com/ros2/ros_testing.git
+      version: master
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/ros_testing.git
+      version: master
+    status: maintained
+  rosidl:
+    doc:
+      type: git
+      url: https://github.com/ros2/rosidl.git
+      version: master
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rosidl.git
+      version: master
+    status: maintained
+  rosidl_dds:
+    doc:
+      type: git
+      url: https://github.com/ros2/rosidl_dds.git
+      version: master
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rosidl_dds.git
+      version: master
+    status: maintained
+  rosidl_defaults:
+    doc:
+      type: git
+      url: https://github.com/ros2/rosidl_defaults.git
+      version: master
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rosidl_defaults.git
+      version: master
+    status: maintained
+  rosidl_python:
+    doc:
+      type: git
+      url: https://github.com/ros2/rosidl_python.git
+      version: master
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rosidl_python.git
+      version: master
+    status: maintained
+  rosidl_typesupport:
+    doc:
+      type: git
+      url: https://github.com/ros2/rosidl_typesupport.git
+      version: master
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rosidl_typesupport.git
+      version: master
+    status: maintained
+  urdf:
+    doc:
+      type: git
+      url: https://github.com/ros2/urdf.git
+      version: ros2
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/urdf.git
+      version: ros2
+    status: maintained
+type: distribution
+version: 2
+
