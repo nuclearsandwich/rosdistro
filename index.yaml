@@ -51,5 +51,8 @@ distributions:
   rolling:
     distribution: [rolling/distribution.yaml]
     distribution_cache: http://repo.ros2.org/rosdistro_cache/rolling-cache.yaml.gz
+  spaceros:
+    distribution: [spaceros/distribution.yaml]
+    distribution_cache: http://repo.ros2.org/rosdistro_cache/spaceros-cache.yaml.gz
 type: index
 version: 3
