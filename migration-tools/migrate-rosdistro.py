@@ -138,6 +138,7 @@ for repo_name in sorted(new_repositories + repositories_to_retry):
         if release_repo.endswith('.git'):
             release_repo = release_repo[:-4]
         subprocess.check_call(['git', 'clone', remote_url])
+        # Fetch all remote branches before continuing operation.
         track_branches(None, release_repo)
         os.chdir(release_repo)
         tracks = read_tracks_file()
